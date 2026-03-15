@@ -75,8 +75,8 @@ optimizer = optim.Adam(model.parameters(), lr=1e-3)
 # Training function
 def train(model, loader, criterion, optimizer, epochs=5):
     model.train()
-    print("Name: BAVYA SRI B")
-    print("Register Number: 212224230034")
+    print("Name: SWETHA K")
+    print("Register Number: 212224230284")
     for epoch in range(epochs):
         running_loss = 0.0
         for images, _ in loader:
@@ -109,8 +109,8 @@ def visualize_denoising(model, loader, num_images=10):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print("Name: BAVYA SRI B ")
-    print("Register Number: 212224230034")
+    print("Name: SWETHA K ")
+    print("Register Number:212224230284")
     plt.figure(figsize=(18, 6))
     for i in range(num_images):
         # Original
@@ -150,7 +150,9 @@ def visualize_denoising(model, loader, num_images=10):
 
 ## Original vs Noisy Vs Reconstructed Image
 
-
+![Image](https://github.com/swetha-1807/DL-Autoencoder/blob/main/Screenshot%202026-03-13%20213652.png)
 
 ## RESULT
-Include your result here
+
+The convolutional autoencoder was successfully trained to denoise MNIST digit images. The model effectively reconstructed clean images from their noisy versions, demonstrating its capability in feature extraction and noise reduction.
+
