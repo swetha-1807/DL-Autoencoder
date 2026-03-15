@@ -143,8 +143,10 @@ def visualize_denoising(model, loader, num_images=10):
 
 ![Model Summary](https://github.com/swetha-1807/DL-Autoencoder/blob/main/Screenshot%202026-03-13%20212630.png?raw=true)
 
+
 ### Training loss
 
+![Training Loss](https://github.com/swetha-1807/DL-Autoencoder/blob/main/Screenshot%202026-03-13%20213638.png)
 
 ## Original vs Noisy Vs Reconstructed Image
 
