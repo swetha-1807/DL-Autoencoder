@@ -140,12 +140,15 @@ def visualize_denoising(model, loader, num_images=10):
 ### OUTPUT
 
 ### Model Summary
-Include your model summary
+
+
 
 ### Training loss
 
+
 ## Original vs Noisy Vs Reconstructed Image
-Include a few sample images here.
+
+
 
 ## RESULT
 Include your result here
