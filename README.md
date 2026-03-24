@@ -150,7 +150,8 @@ def visualize_denoising(model, loader, num_images=10):
 
 ## Original vs Noisy Vs Reconstructed Image
 
-![Image](https://github.com/swetha-1807/DL-Autoencoder/blob/main/Screenshot%202026-03-13%20213652.png)
+<img width="798" height="260" alt="image" src="https://github.com/user-attachments/assets/e6850826-b07c-4973-ae8c-6f451bde2dbf" />
+
 
 ## RESULT
 
